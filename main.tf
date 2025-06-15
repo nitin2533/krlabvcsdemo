@@ -26,9 +26,9 @@ data "aws_vpc" "main" {
   default = true
 }
 
-
-
-
+data "aws_vpc" "main2" {
+  default = true
+}
 
 locals {
   inbound_rules = [
